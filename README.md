@@ -44,38 +44,35 @@ Bu projeyi klonlayarak kendi ortamınızda çalıştırabilirsiniz. Otomasyon te
 
 1. Projeyi klonlayın:
 
-```bash
+
 git clone https://github.com/kullaniciadi/selenium-ui-automation-java.git
 cd selenium-ui-automation-java
 Allure CLI yükleyin (daha önce yüklü değilse):
 
 MacOS için (Homebrew kullanarak):
 
-bash
-Kopyala
+
+
 brew install allure
 Windows ve Linux için Allure resmi dokümanlarını takip edin.
 
 Testleri Çalıştırma
 Aşağıdaki komut ile tüm testleri çalıştırabilirsiniz:
 
-bash
-Kopyala
+
+
 mvn clean test
 Test sonuçları target/allure-results dizinine kaydedilecektir.
 
 Allure Raporu
 Testler tamamlandıktan sonra Allure raporunu oluşturmak ve görüntülemek için:
 
-bash
-Kopyala
+
 allure serve target/allure-results
 Bu komut, raporu oluşturur ve tarayıcıda otomatik olarak açar.
 
 Alternatif olarak, raporu oluşturup statik dosya olarak da oluşturabilirsiniz:
 
-bash
-Kopyala
 allure generate target/allure-results -o target/site/allure-report --clean
 Sonrasında raporu web sunucuya koyup veya doğrudan açabilirsiniz.
 
@@ -93,18 +90,13 @@ Temiz ve modüler test sınıfları: Kolayca test ekleme ve yönetme imkanı.
 Test Kapsamı
 Ana Sayfa Testleri: Site başlığının doğrulanması, logo görünürlüğü, menü ve linklerin çalışması.
 
-İletişim Formu Testleri: Formun doğru şekilde doldurulması, doğrulama mesajlarının kontrolü.
+İletişim Formu Testleri: geçersiz e-mail ile contact us bileşeni , doğrulama mesajlarının kontrolü.
 
 Katkıda Bulunma
 Katkılarınız için teşekkür ederiz!
 Fork yapabilir, yeni testler ekleyebilir, hataları düzeltebilir veya iyileştirmeler yapabilirsiniz.
 Pull request açarken açıklayıcı olmanız işimizi kolaylaştıracaktır.
 
-Lisans
-Bu proje MIT Lisansı ile lisanslanmıştır.
 
-İletişim
-Proje ile ilgili sorularınız veya önerileriniz için arifff12314@gmail.com adresinden ulaşabilirsiniz.
 
-yaml
-Kopyala
+
