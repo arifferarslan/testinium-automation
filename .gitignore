@@ -1,0 +1,6 @@
+# Java / Maven
+target/
+.idea/
+*.iml
+*.class
+*.log
